@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'SuperMario256';
+    src: url(../FONT/SuperMario256.ttf);
+}
+/* Ajustare alun que otro tamaño de las imagenes y las cajas para que quede como en la imagen */
+body{
+background-image: url(../IMG/fondo2.jpg);   
+background-repeat:no-repeat;
+background-position: center;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+.TituloMario{
+    font-size: 60px;
+    font-family: 'SuperMario256';
+    text-align: center;
+    color: rgb(162, 0, 0);
+}
+.AlignCenter{
+    text-align: center;
+}
+.CajaElementos{
+    display: inline-block;
+    width: 500px;
+    height: 360px;
+    border-style: double;
+    border-radius: 20px 0px 20px 0px;
+    border-width: 5px;
+    border-color: red;
+    background-image: url(../IMG/fondo.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    margin-top: 20px;
+}
+.CajasAmarillas{
+    width: 400px;
+    height: 200px;
+}
+.uno, .dos, .tres, .cuatro, .uno2, .dos2, .tres2, .cuatro2, .uno3, .dos3, .tres3, .cuatro3, .uno4, .dos4, .tres4, .cuatro4{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+}
+.uno{
+    margin-top: -15px;
+}
+.dos{
+    margin-top: -15px;
+    margin-left: 125px;
+}
+.tres{
+    margin-top: 40px;
+}
+.cuatro{
+    margin-top: 40px;
+    margin-left: 125px;
+}
+.uno2{
+    margin-top: -15px;
+    margin-left: 7px;
+}
+.dos2{
+    margin-top: -15px;
+    margin-left: 132px;
+}
+.tres2{
+    margin-top: 40px;
+    margin-left: 7px;
+}
+.cuatro2{
+    margin-top: 40px;
+    margin-left: 132px;
+}
+.uno3{
+    margin-top: -15px;
+    margin-left: -35px;
+}
+.dos3{
+    margin-top: -15px;
+    margin-left: 90px;
+}
+.tres3{
+    margin-top: 40px;
+    margin-left: -35px;
+}
+.cuatro3{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.uno4{
+    margin-top: -15px;
+    margin-left: -45px;
+}
+.dos4{
+    margin-top: -15px;
+    margin-left: 78px;
+}
+.tres4{
+    margin-top: 40px;
+    margin-left: -45px;
+}
+.cuatro4{
+    margin-top: 40px;
+    margin-left: 78px;
+}
+.CajaElementosAmarillas{
+    width: 155px;
+    height: 60px;
+    background-color: rgb(249, 162, 32);
+    font-family: 'SuperMario256';
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    border-radius: 10px 10px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.CajaElementosAmarillas2{
+    width: 155px;
+    height: 60px;
+    background-color: rgb(249, 162, 32);
+    font-family: 'SuperMario256';
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    border-radius: 10px 10px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+.CajaElementosAmarillas3{
+    width: 155px;
+    height: 60px;
+    background-color: rgb(249, 162, 32);
+    font-family: 'SuperMario256';
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    border-radius: 10px 10px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+/* He cambiado los tamaños segun lo necesario para ajustarlo al tamaño de mi ordenador */
+.CajaElementosAmarillas4{
+    width: 155px;
+    height: 60px;
+    background-color: rgb(249, 162, 32);
+    font-family: 'SuperMario256';
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    border-radius: 10px 10px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+/* He cambiado los tamaños segun lo necesario para ajustarlo al tamaño de mi ordenador */
+#ImagenLogoCaja{
+    width: 160px;
+    height: 180px;
+    background-image: url(../IMG/logo.png);
+    background-size: 100% 100%;
+    text-align: center;
+    display:inline-block;
+    position: relative;
+}
+.Centrar{
+    text-align: center;
+}
+/* He cambiado los tamaños segun lo necesario para ajustarlo al tamaño de mi ordenador */
+.MarioMuneco{
+    width: 120px;
+    height: 120px;
+    background-image: url(../IMG/mario.png);
+    background-size: 100% 100%;
+    position: absolute;
+    display: inline-block;
+    margin-top: -280px;
+    margin-left: 130px;
+}
+.Texto:hover{
+background-color: brown;
+color: white;
+}
+
+/* He cambiado los tamaños segun lo necesario para ajustarlo al tamaño de mi ordenador */
+.MarioEstrella{
+    width: 180px;
+    height: 180px;
+    background-image: url(../IMG/estrella.png);
+    background-size: 100% 100%;
+    margin-top: -140px;
+    margin-left: -85px;
+}
+.MarioEstrella:hover{
+ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.5));
+}
+.MarioMuneco:hover{
+ filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.5));
+}
+.ContenedorYosi{
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    float: right;
+    margin-top: -80px;
+    margin-right: 20px;
+}
+.Texto{
+    width: 180px;
+    height: 60px;
+    color: brown;
+    font-family: 'SuperMario256';
+    font-size: 1.1em;
+    background-color: rgb(255, 255, 255) ;
+    border: solid 3px red;
+    border-radius: 15px 15px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 17.5%;
+    float: left;
+}
+.ImagenYosi{
+    width: 250px;
+    height: 200px;
+    background-image: url(../IMG/yosi.png);
+    background-size: 100% 100%;
+    margin-left: 35%;
+    margin-top: 5px;
+}
